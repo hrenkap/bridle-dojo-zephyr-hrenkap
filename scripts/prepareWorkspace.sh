@@ -17,7 +17,7 @@ fi
 
 if [ ! -d ".west" ]; then
     echo "Could not find .west folder, initializing workspace now"
-    .venv/bin/west init -l bridle-dojo
+    .venv/bin/west init -l bridle-dojo-zephyr-hrenkap
 fi
 
 echo "Update workspace using west"
