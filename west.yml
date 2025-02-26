@@ -36,7 +36,7 @@ manifest:
   # West-related configuration for the Bridle repository.
   self:
     # This repository should be cloned to workspace/bridle.
-    path: bridle-dojo
+    path: bridle-dojo-zephyr-hrenkap
     # This line configures west extensions which are currently
     # only for internal use by TIAC maintainers; import build
     # commands from Zephyr repo.
