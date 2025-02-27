@@ -53,6 +53,7 @@ ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
 # Create the user
+RUN useradd -m ubuntu
 
 # ********************************************************
 # * Anything else you want to do like clean up goes here *
